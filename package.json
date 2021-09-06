@@ -1,6 +1,6 @@
 {
   "name": "superutils",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "a super utils made with love for my future proyects",
   "main": "dist/index.js",
   "types": "dist/index.ts",
