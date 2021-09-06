@@ -1,15 +1,15 @@
+import { inspect } from "./inspect";
 type references = {
   [name: string]: any;
 };
 abstract class SuperError extends Error {
-  references: references;
-
+  references!: references;
   /**
    * Get a references string
-   * @returns 
+   * @returns
    */
   private getReferencesString(): string {
-    return JSON.stringify(this.references);
+    return inspect(this.references);
   }
   /**
    * Sends the error message through a log system.
