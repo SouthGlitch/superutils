@@ -3,7 +3,7 @@
   "version": "0.0.3",
   "description": "a super utils made with love for my future proyects",
   "main": "dist/index.js",
-  "types": "dist/index.ts",
+  "types": "dist/index.d.ts",
   "scripts": {
     "test": "jest",
     "build": "tsc --declaration"
