@@ -1,5 +1,5 @@
 {
-  "name": "superutils",
+  "name": "@southglitch/superutils",
   "version": "0.0.4",
   "description": "a super utils made with love for my future proyects",
   "main": "dist/index.js",
